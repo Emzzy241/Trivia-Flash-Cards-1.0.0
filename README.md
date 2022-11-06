@@ -21,14 +21,7 @@ _In this great application I made use of the Trivia API to have amazing features
 ## Setup/Installation
 * First clone the project on your System(git clone _REPOSITORY-NAME_)
 * Run npm install in the Terminal(e.g the git bash Terminal). with this, all of the dependencies of the application gets installed
-* Then before running an "npm run start" which will build and start the application on a dev server here are a few things you will be needing for the application and those few things are:
-* 1. An Environmental variable file: just create a file named .env(note: this is the place where you will be storing sensitive information like API keys and the likes)
-* 2. Go to the website(INput THE SITE HERE EMMANUEL) or just type in iNPUT_THE_SITE_HERE
-* 3. Create a developer account which will make you able to generate API keys you will be needing for this application
-* 4. Generate an API key with a name of your choice, now copy that api key(hint: an API key characters ranges from 20-25 characters) and then go to the .env file you created and in it create a variable(hint: variables created in a .env file are all capitalized and have an underscore_ separating each word) you can name your variable anything and then store your api key to be equal to that variable you created
-* 5. Having done that, inside the index.js javascript file check to see a variable where I stored my openweathermap link in(endpoint) and in the "process.env.API_KEY" change it to a "process.env.API_KEY.THE_VARIABLE_NAME_YOU_STORED_YOUR_API_KEY_IN"
-* 6. Ensure you take part in the no5 otherwise you'll get a "401: invalid api key" error. If you do get lost on the way, you can contact me below with the contact details I supplied below
-
+* Run npm run start to start te project for you on a dev server
 
 ## Detected Bugs/ Issues
 * _No detected bugs_
