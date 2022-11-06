@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Flash Cards</title>
+</head>
+
+<body>
+    <!--  designing Trivia Cards accross the Screen -->
+
+    <h2>Welcome to the Trivia Game 1.0</h2>
+    <p>15 Trivia Questions Brought to you by Mojiboye Emmanuel</p>
+    <p class="instruction"> Before clicking the start button, Dear User please click the "Select Difficulty" button</p>
+    <p>Dear User, in the game, any word that starts with the " & or #" should be snubbed as they are only there to confuse you</p>
+    <!-- 
+    <div class="container">
+
+        <div class="row trivia-cards">
+            <div id="question-1" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+            <div id="question-2" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+            <div id="question-3" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+            <div id="question-4" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+            <div id="question-5" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+            <div id="question-6" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+            <div id="question-7" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+            <div id="question-8" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+            <div id="question-9" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+            <div id="question-10" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+            <div id="question-11" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+            <div id="question-12" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+            <div id="question-13" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+
+            <div id="question-14" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+            <div id="question-15" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+
+            
+            <div id="question-16" class="questions">
+
+                <div class="back-face">
+                    <p>What is Amoeba</p>
+                </div>
+
+                <div class="front-face">
+                    <p>The answer is </p>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div> -->
+
+
+    <div class="game-difficulty">
+
+        <select name="" id="user-difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <a class="btn btn-info">Select difficulty</a>
+
+    </div>
+
+    <section class="game-section">
+
+        <div class="game-div">
+            <div class="triviaQuestions">
+
+
+                <h6><span>Difficulty</span>: <span class="difficulty"></span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                    <span>Category</span>: Entertainment
+                </h6>
+                <button class="start-game">Start Trivia Game</button>
+                <button class="restart-game"><a href="./index.html">Restart Trivia Game</a> </button>
+                <h4 id="question">Question</h4>
+
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="a" class="answer"></input>
+                        <label for="a" id="a_text">Trivia Questions</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="b" class="answer"></input>
+                        <label for="b" id="b_text">Questions</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="c" class="answer"></input>
+                        <label for="c" id="c_text">Questions</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="d" class="answer"></input>
+                        <label for="d" id="d_text">Questions</label>
+                    </li>
+                </ul>
+            </div>
+            <button id="submit">Submit</button>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
