@@ -1,0 +1,104 @@
+:root{
+    --purple-navy: hsl(236, 26%, 43%);
+    --ksu-purple: hsl(275, 54%, 33%);
+    --winter-sky: hsl(335, 87%, 53%);
+
+    --rajah: hsl(29, 99%, 67%);
+    --razzmattazz: hsl(335, 87%, 51%);
+    --gradient-2: linear-gradient(390deg, var(--razzmattazz), var(--rajah));
+}
+
+h1, p{
+    text-align: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.game-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-top: -50px;
+    height: 110vh; /* view-port height for bringing the question section down*/
+    overflow: hidden;
+    background-image: var(--gradient-2);
+}
+
+.game-div{
+    background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    overflow: hidden;
+    width: 600px;
+}
+
+.triviaQuestions{
+    padding: 4rem;
+}
+
+h2{
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label{
+    cursor: pointer;
+}
+
+button{
+    background-color: var(--winter-sky);
+    color: #fff;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+}
+
+button:hover{
+    background-color: var(--ksu-purple);
+    transition: 2s ease;
+}
+
+button:focus{
+    outline: none;
+    background-color: #5e3370;
+}
+
+.restart-game{
+    display: none;
+}
+
+.restart-game a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+h6 span{
+    color: var(--winter-sky);
+}
+
+.game-difficulty{
+    margin-left: 70px;
+}
+
+
