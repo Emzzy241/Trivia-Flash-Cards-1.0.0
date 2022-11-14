@@ -1,4 +1,4 @@
-# Trivia Flash Cards API
+# Trivia Flash Cards API 1.0.0
 #### made by Mojiboye Emmanuel
 
 #### A Quiz like App made with the Trivia Database Api
