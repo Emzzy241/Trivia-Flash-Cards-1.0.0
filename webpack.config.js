@@ -36,7 +36,7 @@ module.exports = {
       outputReport: false
     }),
     new HtmlWebpackPlugin({
-      title: 'Great Giphy App',
+      title: 'Trivia Flash Cards',
       template: './src/index.html',
       inject: 'body'
     }),
