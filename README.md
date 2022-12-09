@@ -27,6 +27,8 @@ _In this great application I made use of the Trivia API to have amazing features
 * _The one bug you will definitely encounter is if you fail to follow any of the Setup/Installation Information I gave you_
 * _Note: as at the launch of this Application there are no bugs but this is not the finished product as I will be adding more features later on. If anyone comes in contact with a bug, be sure to hit me up on social media or email me @emzzyoluwole@gmail.com. WATCH OUT FOR VERSION 1.1.0 WHICH IS COMING SOON. Also in version 1.1.0, I would be making use of some things called promise, .then() and fetch, and even a try....catch block just to make application more fun and readable for users_
 
+## WebPage Link
+https://emzzy241.github.io/Trivia-Flash-Cards-1.0.0/
 
 ## License
 Licensed under the GNU General Public License
